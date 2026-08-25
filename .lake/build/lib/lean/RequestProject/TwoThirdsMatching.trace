@@ -1,0 +1,30 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["3c857824b16fd5c5.olean"],
+  "i": "909b29e33888b3b2.ilean",
+  "c": "9b91861c88599726.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Cli/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/batteries/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Qq/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/aesop/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/importGraph/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/plausible/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/mathlib/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean /Users/yotamg/.elan/toolchains/leanprover--lean4---v4.28.0/bin/lean /Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/TwoThirdsMatching.lean -o /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/TwoThirdsMatching.olean -i /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/TwoThirdsMatching.ilean -c /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/TwoThirdsMatching.c --setup /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/TwoThirdsMatching.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["RequestProject.TwoThirdsMatching:deps",
+   [["deps",
+     [["RequestProject/RequestProject:extraDep",
+       [["@RequestProject:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib transitive imports (legacy)", "a6990444ef58234f"],
+        ["Mathlib:importAllArts", "8fc2a9ec06d95bdc"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.28.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+   "a96bc04a2e5e9630"],
+  ["/Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/TwoThirdsMatching.lean",
+   "ef22307e3d87d2c7"],
+  ["options", "00000000000006bb"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "2dc3b030fbcd99dd"}

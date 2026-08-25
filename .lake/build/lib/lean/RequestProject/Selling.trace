@@ -1,0 +1,42 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["42feb69a96f8e88d.olean"],
+  "i": "d421a98255a37781.ilean",
+  "c": "ee9eb12ce213555e.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Cli/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/batteries/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Qq/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/aesop/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/importGraph/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/plausible/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/mathlib/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean /Users/yotamg/.elan/toolchains/leanprover--lean4---v4.28.0/bin/lean /Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/Selling.lean -o /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/Selling.olean -i /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/Selling.ilean -c /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/Selling.c --setup /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/Selling.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "RequestProject/Selling.lean:189:0: automatically included section variable(s) unused in theorem `FairSelling.SEFX_of_EF`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/Selling.lean:193:0: automatically included section variable(s) unused in theorem `FairSelling.SEF1_of_EF`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/Selling.lean:198:0: automatically included section variable(s) unused in theorem `FairSelling.vbarSum_nonneg`:\n  [DecidableEq G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/Selling.lean:204:0: automatically included section variable(s) unused in theorem `FairSelling.SEF1_of_SEFX`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"}],
+ "inputs":
+ [["RequestProject.Selling:deps",
+   [["deps",
+     [["RequestProject/RequestProject:extraDep",
+       [["@RequestProject:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib transitive imports (legacy)", "a6990444ef58234f"],
+        ["Mathlib:importAllArts", "8fc2a9ec06d95bdc"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.28.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+   "a96bc04a2e5e9630"],
+  ["/Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/Selling.lean",
+   "3c2cf9b692edde59"],
+  ["options", "00000000000006bb"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "5bac83866fea09a4"}

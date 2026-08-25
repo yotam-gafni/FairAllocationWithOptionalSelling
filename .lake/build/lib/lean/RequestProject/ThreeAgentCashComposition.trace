@@ -1,0 +1,51 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["dc972096f50757a5.olean"],
+  "i": "8ba10b56088a0e35.ilean",
+  "c": "4a84452e643d33a8.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Cli/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/batteries/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Qq/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/aesop/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/importGraph/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/plausible/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/mathlib/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean /Users/yotamg/.elan/toolchains/leanprover--lean4---v4.28.0/bin/lean /Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/ThreeAgentCashComposition.lean -o /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/ThreeAgentCashComposition.olean -i /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/ThreeAgentCashComposition.ilean -c /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/ThreeAgentCashComposition.c --setup /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/ThreeAgentCashComposition.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "RequestProject/ThreeAgentCashComposition.lean:25:8: automatically included section variable(s) unused in theorem `FairSelling.mem_optionGoods`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCashComposition.lean:40:34: This simp argument is unused:\n  Finset.sum_insert hx\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵*̵,̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵i̵n̵s̵e̵r̵t̵ ̵h̵x̵ ̵]̵[̲*̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCashComposition.lean:51:96: This simp argument is unused:\n  hx\n\nHint: Omit it from the simp argument list.\n  simp +decide ̵[̵ ̵h̵x̵ ̵]̵\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCashComposition.lean:122:205: This simp argument is unused:\n  Fin.sum_univ_three\n\nHint: Omit it from the simp argument list.\n  simp_all +decide ̵[̵ ̵F̵i̵n̵.̵s̵u̵m̵_̵u̵n̵i̵v̵_̵t̵h̵r̵e̵e̵ ̵]̵\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCashComposition.lean:135:27: This simp argument is unused:\n  Finset.sum_ite\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵i̵t̵e̵,̵ ̵r̵e̵s̵t̵r̵i̵c̵t̵V̵a̵l̵ ̵]̵[̲r̲e̲s̲t̲r̲i̲c̲t̲V̲a̲l̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCashComposition.lean:136:31: This simp argument is unused:\n  Finset.ext_iff\n\nHint: Omit it from the simp argument list.\n  simp +contextual ̵[̵ ̵F̵i̵n̵s̵e̵t̵.̵e̵x̵t̵_̵i̵f̵f̵ ̵]̵\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"}],
+ "inputs":
+ [["RequestProject.ThreeAgentCashComposition:deps",
+   [["deps",
+     [["RequestProject/RequestProject:extraDep",
+       [["@RequestProject:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib transitive imports (legacy)", "a6990444ef58234f"],
+        ["Mathlib:importAllArts", "8fc2a9ec06d95bdc"],
+        ["RequestProject.ThreeAgentCash transitive imports (legacy)",
+         "bd132ba965289392"],
+        ["RequestProject.ThreeAgentCash:importAllArts", "6137fb503a4d4d06"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.28.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+   "a96bc04a2e5e9630"],
+  ["/Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/ThreeAgentCashComposition.lean",
+   "178c72e552038491"],
+  ["options", "00000000000006bb"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "fab391130bc51ed1"}

@@ -1,0 +1,99 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["28d0634ae8f52d8f.olean"],
+  "i": "85a01d7ab0e97639.ilean",
+  "c": "fabcb8090682d8df.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Cli/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/batteries/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Qq/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/aesop/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/importGraph/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/plausible/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/mathlib/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean /Users/yotamg/.elan/toolchains/leanprover--lean4---v4.28.0/bin/lean /Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/ThreeAgentCash.lean -o /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/ThreeAgentCash.olean -i /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/ThreeAgentCash.ilean -c /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/ThreeAgentCash.c --setup /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/ThreeAgentCash.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:33:8: automatically included section variable(s) unused in theorem `FairSelling.cashVal_none`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:34:8: automatically included section variable(s) unused in theorem `FairSelling.cashVal_some`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:36:8: automatically included section variable(s) unused in theorem `FairSelling.cashPrice_none`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:38:8: automatically included section variable(s) unused in theorem `FairSelling.cashPrice_some`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:41:0: automatically included section variable(s) unused in theorem `FairSelling.cashVal_nonneg`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:48:0: automatically included section variable(s) unused in theorem `FairSelling.cashPrice_nonneg`:\n  [Fintype G]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype G] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:81:72: Try this:\n  [apply] ring_nf\n  \n  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.\n    \n  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.",
+   "level": "info"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:69:66: This simp argument is unused:\n  Finset.disjoint_right\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵F̵i̵n̵s̵e̵t̵.̵d̵i̵s̵j̵o̵i̵n̵t̵_̵l̵e̵f̵t̵,̵ ̵F̵i̵n̵s̵e̵t̵.̵d̵i̵s̵j̵o̵i̵n̵t̵_̵r̵i̵g̵h̵t̵ ̵]̵[̲F̲i̲n̲s̲e̲t̲.̲d̲i̲s̲j̲o̲i̲n̲t̲_̲l̲e̲f̲t̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:74:38: This simp argument is unused:\n  Finset.sum_biUnion\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵F̵i̵n̵.̵u̵n̵i̵v̵_̵s̵u̵c̵c̵,̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵b̵i̵U̵n̵i̵o̵n̵,̵ ̵h̵C̵D̵ ̵]̵[̲F̲i̲n̲.̲u̲n̲i̲v̲_̲s̲u̲c̲c̲,̲ ̲h̲C̲D̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:74:58: This simp argument is unused:\n  hCD\n\nHint: Omit it from the simp argument list.\n  simp +decide [ ̵Fin.univ_succ, Finset.sum_biUnion,̵ ̵h̵C̵D̵ ̵]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:82:33: This simp argument is unused:\n  add_left_comm\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵a̵d̵d̵_̵c̵o̵m̵m̵,̵ ̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵[̲a̲d̲d̲_̲c̲o̲m̲m̲,̲ add_assoc, Finset.sum_add_distrib, m̵a̵x̵_̵d̵e̵f̵'̵ ̵]̵m̲a̲x̲_̲d̲e̲f̲'̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:82:59: This simp argument is unused:\n  Finset.sum_add_distrib\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵a̵d̵d̵_̵c̵o̵m̵m̵,̵[̲a̲d̲d̲_̲c̲o̲m̲m̲,̲ add_left_comm, add_assoc, F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵a̵d̵d̵_̵d̵i̵s̵t̵r̵i̵b̵,̵ ̵m̵a̵x̵_̵d̵e̵f̵'̵ ̵]̵m̲a̲x̲_̲d̲e̲f̲'̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:84:46: This simp argument is unused:\n  Finset.sum_map\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵m̵a̵p̵,̵ ̵v̵b̵a̵r̵ ̵]̵[̲v̲b̲a̲r̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:86:312: This simp argument is unused:\n  Finset.sum_add_distrib\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵a̵d̵d̵_̵d̵i̵s̵t̵r̵i̵b̵,̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵s̵u̵b̵_̵d̵i̵s̵t̵r̵i̵b̵ ̵]̵[̲F̲i̲n̲s̲e̲t̲.̲s̲u̲m̲_̲s̲u̲b̲_̲d̲i̲s̲t̲r̲i̲b̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:105:390: This simp argument is unused:\n  unifiedOutcome_valid\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵u̵n̵i̵f̵i̵e̵d̵O̵u̵t̵c̵o̵m̵e̵_̵v̵a̵l̵i̵d̵,̵ ̵u̵t̵i̵l̵_̵u̵n̵i̵f̵i̵e̵d̵O̵u̵t̵c̵o̵m̵e̵ ̵]̵[̲u̲t̲i̲l̲_̲u̲n̲i̲f̲i̲e̲d̲O̲u̲t̲c̲o̲m̲e̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:105:412: This simp argument is unused:\n  util_unifiedOutcome\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵u̵n̵i̵f̵i̵e̵d̵O̵u̵t̵c̵o̵m̵e̵_̵v̵a̵l̵i̵d̵,̵ ̵u̵t̵i̵l̵_̵u̵n̵i̵f̵i̵e̵d̵O̵u̵t̵c̵o̵m̵e̵ ̵]̵[̲u̲n̲i̲f̲i̲e̲d̲O̲u̲t̲c̲o̲m̲e̲_̲v̲a̲l̲i̲d̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:117:32: This simp argument is unused:\n  cashVal\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵v̵b̵a̵r̵S̵u̵m̵,̵ ̵c̵a̵s̵h̵V̵a̵l̵,̵ ̵c̵a̵s̵h̵P̵r̵i̵c̵e̵ ̵]̵[̲v̲b̲a̲r̲S̲u̲m̲,̲ ̲c̲a̲s̲h̲P̲r̲i̲c̲e̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:117:41: This simp argument is unused:\n  cashPrice\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵v̵b̵a̵r̵S̵u̵m̵,̵ ̵c̵a̵s̵h̵V̵a̵l̵,̵ ̵c̵a̵s̵h̵P̵r̵i̵c̵e̵ ̵]̵[̲v̲b̲a̲r̲S̲u̲m̲,̲ ̲c̲a̲s̲h̲V̲a̲l̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:123:32: This simp argument is unused:\n  cashVal\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵v̵b̵a̵r̵S̵u̵m̵,̵ ̵c̵a̵s̵h̵V̵a̵l̵,̵ ̵c̵a̵s̵h̵P̵r̵i̵c̵e̵ ̵]̵[̲v̲b̲a̲r̲S̲u̲m̲,̲ ̲c̲a̲s̲h̲P̲r̲i̲c̲e̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:123:41: This simp argument is unused:\n  cashPrice\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵v̵b̵a̵r̵S̵u̵m̵,̵ ̵c̵a̵s̵h̵V̵a̵l̵,̵ ̵c̵a̵s̵h̵P̵r̵i̵c̵e̵ ̵]̵[̲v̲b̲a̲r̲S̲u̲m̲,̲ ̲c̲a̲s̲h̲V̲a̲l̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:159:34: This simp argument is unused:\n  cashVal\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵v̵b̵a̵r̵S̵u̵m̵,̵ ̵c̵a̵s̵h̵V̵a̵l̵,̵ ̵c̵a̵s̵h̵P̵r̵i̵c̵e̵ ̵]̵[̲v̲b̲a̲r̲S̲u̲m̲,̲ ̲c̲a̲s̲h̲P̲r̲i̲c̲e̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"},
+  {"message":
+   "RequestProject/ThreeAgentCash.lean:159:43: This simp argument is unused:\n  cashPrice\n\nHint: Omit it from the simp argument list.\n  simp +decide [̵ ̵v̵b̵a̵r̵S̵u̵m̵,̵ ̵c̵a̵s̵h̵V̵a̵l̵,̵ ̵c̵a̵s̵h̵P̵r̵i̵c̵e̵ ̵]̵[̲v̲b̲a̲r̲S̲u̲m̲,̲ ̲c̲a̲s̲h̲V̲a̲l̲]̲\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`",
+   "level": "warning"}],
+ "inputs":
+ [["RequestProject.ThreeAgentCash:deps",
+   [["deps",
+     [["RequestProject/RequestProject:extraDep",
+       [["@RequestProject:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib transitive imports (legacy)", "a6990444ef58234f"],
+        ["Mathlib:importAllArts", "8fc2a9ec06d95bdc"],
+        ["RequestProject.ThreeAgents transitive imports (legacy)",
+         "79702369b5ab11fb"],
+        ["RequestProject.ThreeAgents:importAllArts", "2a49b5bc5e294eaf"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.28.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+   "a96bc04a2e5e9630"],
+  ["/Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/ThreeAgentCash.lean",
+   "2dca95797302e329"],
+  ["options", "00000000000006bb"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "d5980ae33a7b11f9"}

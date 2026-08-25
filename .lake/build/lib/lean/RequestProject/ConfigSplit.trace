@@ -1,0 +1,33 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["cc8b23be56ce9cda.olean"],
+  "i": "b1ca004efd00ff0f.ilean",
+  "c": "a5d769e2c9a722aa.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Cli/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/batteries/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/Qq/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/aesop/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/importGraph/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/plausible/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/packages/mathlib/.lake/build/lib/lean:/Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean /Users/yotamg/.elan/toolchains/leanprover--lean4---v4.28.0/bin/lean /Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/ConfigSplit.lean -o /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/ConfigSplit.olean -i /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/lib/lean/RequestProject/ConfigSplit.ilean -c /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/ConfigSplit.c --setup /Users/yotamg/Downloads/output-final_aristotle 9/.lake/build/ir/RequestProject/ConfigSplit.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["RequestProject.ConfigSplit:deps",
+   [["deps",
+     [["RequestProject/RequestProject:extraDep",
+       [["@RequestProject:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib transitive imports (legacy)", "a6990444ef58234f"],
+        ["Mathlib:importAllArts", "8fc2a9ec06d95bdc"],
+        ["RequestProject.MatchingPhase transitive imports (legacy)",
+         "8546e0a589ae6975"],
+        ["RequestProject.MatchingPhase:importAllArts", "6561aa9e104f5b4f"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.28.0, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+   "a96bc04a2e5e9630"],
+  ["/Users/yotamg/Downloads/output-final_aristotle 9/RequestProject/ConfigSplit.lean",
+   "b9f027880c5f812d"],
+  ["options", "00000000000006bb"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "bada464e0d6636cb"}
